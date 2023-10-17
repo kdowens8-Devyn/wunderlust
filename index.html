@@ -146,21 +146,58 @@ Population
 
 Population: 923,608
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+
+    <section id="contact-info">
+		<h2>Contact Us</h2>
+		<form>
+			<label for="first-name">First Name<span class="required"></span></label><br>
+			<input id="first-name" type="text" name="first-name"><br>
+
+			<label for="last-name">Last Name<span class="required"></span></label><br>
+			<input id="last-name" type="text" name="last-name"><br>
+
+			<label for="email">Email Address<span class="required"></span></label><br>
+			<input id="email" type="text" name="email"><br>
+
+			<label for="phone-number">Phone Number<span class="required">*</span></label><br>
+			<input id="phone-number" type="number" name="phone-number"><br>
+
+			<fieldset>
+				<legend>Preferred Contact Method<span class="required"></span></legend>
+				<input id="contact-phone" type="radio" name="contact" value="phone">
+				<label for="contact-phone">Phone</label>
+				<input id="contact-text" type="radio" name="contact" value="text">
+				<label for="contact-text">Phone</label>
+				<input id="contact-email" type="radio" name="contact" value="email">
+				<label for="contact-email">Email</label>
+			</fieldset>
+
+			<label for="destinationPick">Destination<span class="required"></span></label>
+			<select id="destinationPick" name="select">
+				<option value="1">Barcelona</option>
+				<option value="2">Granada</option>
+				<option value="3">Ibiza</option>
+				<option value="4">Madrid</option>
+				<option value="5">Majorca</option>
+				<option value="6">Seville</option>
+				<option value="7">Tenerife</option>
+				<option value="8">Valencia</option>
+			</select><br>
+
+			<label for="travelTime">Travel Time<span class="required">*</span></label>
+			<select id="travelTime" name="select">
+				<option value="1">Fall</option>
+				<option value="2">Winter</option>
+				<option value="3">Spring</option>
+				<option value="4">Summer</option>
+				<option value="5">Flexible</option>
+			</select>
+		</form>
+	</section>
+
 </main>
 <footer>
-Contact Us
-First Name (Enter first name)
-Last Name (Enter last name)
-
-Contact Method (Email, Text, Phone)
-Email Address (Enter Email)
-Phone Number (Enter telephone number)
-
-Destination (Barcelona, Granada, Ibiza, Madrid, Majorca, Seville, Tenerife, Valencia)
-Travel Time (Fall, Winter, Spring, Summer, Flexible)
-
-
-
 Copyright 2021 Wunderlust
 Privacy Statement
 Terms of Service
