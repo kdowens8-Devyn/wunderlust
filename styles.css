@@ -100,7 +100,7 @@ header nav li{
     text-align: right;  
     display: flex;
     justify-content: end;
-    grid-row: 1/-1;
+    
 }
 
 header nav li a{
@@ -110,7 +110,7 @@ header nav li a{
     text-decoration: none;
 }
 
-li .active{
+header nav .active{
     background-color: #F6D64A;
 }
 
