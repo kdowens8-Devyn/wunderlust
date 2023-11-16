@@ -119,6 +119,10 @@ header nav ul {
 
 }
 
+header a{
+    padding: 10px;
+}
+
 header nav .active{
     background-color: #F6D64A;
 }
