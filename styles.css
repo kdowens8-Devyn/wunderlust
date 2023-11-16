@@ -171,15 +171,14 @@ header p {
     font-size: 20px;
   }
 
-  #intro p{
+  #intro h2{
+    font-size: 30px;
+  }
+
+  div #intro{
     margin: 0 auto;
     width: 70%;
     margin-top: 200px;
-  }
-
-  #intro h2{
-    font-size: 30px;
-    
   }
 
 /* Phone */
