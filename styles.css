@@ -76,5 +76,7 @@ h4, p, q, small, nav, button, form {
   }
 
 header{
-    background-color: #55BCD5;
+    background-image: linear-gradient(var(--teal),white);
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
 }
