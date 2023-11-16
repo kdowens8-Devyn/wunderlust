@@ -98,7 +98,8 @@ header nav{
 header nav li{
     list-style: none;
     text-align: right;  
-    display: flex;  
+    display: flex;
+    justify-content: space-between;  
 }
 
 header h1{
