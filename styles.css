@@ -166,7 +166,9 @@ header p {
   
   #menu-toggle label, #toggle { display: none; }
 
-
+  #intro p, #intro h2{
+    margin: 10px;
+  }
 
 
 
