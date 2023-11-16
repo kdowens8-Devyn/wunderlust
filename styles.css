@@ -91,7 +91,7 @@ header nav{
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
-    
+    width: 100%;
     
 }
 
@@ -99,7 +99,7 @@ header nav li{
     list-style: none;
     text-align: right;  
     display: flex;
-    
+    width: 25%
 }
 
 header nav li a{
