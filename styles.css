@@ -105,7 +105,7 @@ header nav li{
     color: #222222;
     padding-left: 10px;
     padding-right: 10px;
-    gap: 10px;
+    
 }
 
 header nav ul {
@@ -130,7 +130,7 @@ header h1{
     grid-row-end: 3;
     font-size: 40px;
     text-align: left;
-    padding-top: 10px;
+    
 }
 header p {
     grid-row-start: 3;
