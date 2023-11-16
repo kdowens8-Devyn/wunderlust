@@ -66,4 +66,11 @@ h4, p, q, small, nav, button, form {
     font-family: 'Montserrat', sans-serif;
 }
 
-
+#skip{
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
