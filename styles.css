@@ -33,3 +33,37 @@ footer, header, hgroup, menu, nav, section {
 
 
 
+
+
+
+
+
+:root {
+    --yellow: #F6D64A;
+    --teal: #55BCD5;
+    --purple: #9B26B0;
+    --blue:#499BD2;
+    --dark-gray: #222222;
+    --light-gray: #EAEAEA;
+}
+
+
+.sr-only {
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+    }
+
+
+h1, h2, h3 {
+    font-family: 'Molle', cursive;
+}
+
+h4, p, q, small, nav, button, form {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
