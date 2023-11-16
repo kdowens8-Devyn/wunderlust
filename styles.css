@@ -105,6 +105,7 @@ header nav li{
     color: #222222;
     padding-left: 10px;
     padding-right: 10px;
+    gap: 10px;
 }
 
 header nav ul {
