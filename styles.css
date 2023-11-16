@@ -123,6 +123,7 @@ header a{
     padding: 10px;
     justify-content: space-between;
     text-decoration: none;
+    color: #222222;
 }
 
 header nav .active{
