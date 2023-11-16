@@ -103,12 +103,13 @@ header nav li{
     
 }
 
-header nav ul li a{
+header nav ul {
     display:flex;
     background-color: #EAEAEA;
     color: #222222;
     text-decoration: none;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
 }
 
 header nav .active{
