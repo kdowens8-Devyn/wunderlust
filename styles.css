@@ -104,7 +104,9 @@ header nav li{
 
 header nav li a{
     display:flex;
-    justify-content: right;
+    background-color: #EAEAEA;
+    color: #222222;
+    text-decoration: none;
 }
 
 header h1{
