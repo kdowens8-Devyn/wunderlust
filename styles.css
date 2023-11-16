@@ -121,6 +121,7 @@ header nav ul {
 
 header a{
     padding: 10px;
+    justify-content: space-between;
 }
 
 header nav .active{
