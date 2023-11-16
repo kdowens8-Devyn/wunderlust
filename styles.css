@@ -80,3 +80,33 @@ header{
     display: grid;
     grid-template-columns: 1fr 1fr ;
 }
+
+header img {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    transform: scale(.6);
+}
+header nav{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+header h1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    font-size: 40px;
+    text-align: left;
+    padding-top: 10px;
+}
+header p {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 90%;
+    font-size: 20px;
+    line-height: 1.5;
+}
