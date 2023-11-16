@@ -102,7 +102,7 @@ header nav li{
     
 }
 
-header nav a{
+header nav li a{
     display:flex;
     justify-content: right;
 }
