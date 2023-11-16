@@ -91,13 +91,14 @@ header nav{
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
-    display: flex;
-    justify-content: space-between;
+    
+    
 }
 
 header nav li{
     list-style: none;
-    text-align: right;    
+    text-align: right;  
+    display: flex;  
 }
 
 header h1{
