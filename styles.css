@@ -117,12 +117,7 @@ header p {
     line-height: 1.5;
 }
 
-#menu-toggle {
-    width: 100%;
-    background-color: var(--yellow);
-    text-transform: uppercase;
-    font-weight: bold;
-  }
+
   
   /* (B) HORIZONTAL MENU ITEMS */
   #menu { display: flex; }
