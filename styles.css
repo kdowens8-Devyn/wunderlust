@@ -103,7 +103,7 @@ header nav li{
     
 }
 
-header nav li a{
+header nav ul li a{
     display:flex;
     background-color: #EAEAEA;
     color: #222222;
