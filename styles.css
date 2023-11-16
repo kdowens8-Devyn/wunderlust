@@ -99,7 +99,7 @@ header nav li{
     list-style: none;
     text-align: right;  
     display: flex;
-    justify-content: space-between;  
+    
 }
 
 header h1{
