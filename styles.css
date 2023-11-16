@@ -91,6 +91,8 @@ header nav{
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
+    display: flex;
+    justify-content: space-between;
 }
 
 header nav li{
@@ -119,7 +121,7 @@ header p {
 
 
   
-  /* (B) HORIZONTAL MENU ITEMS */
+ 
   #menu { display: flex; }
   #menu a {
     flex-grow: 1;
@@ -131,7 +133,7 @@ header p {
   }
   #menu a:hover { background: white; }
   
-  /* (C) HIDE HAMBURGER */
+  
   #menu-toggle label, #toggle { display: none; }
 
 
