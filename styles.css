@@ -100,7 +100,7 @@ header nav li{
     text-align: right;  
     display: flex;
     justify-content: end;
-    
+    text-decoration: none;
 }
 
 header nav ul {
