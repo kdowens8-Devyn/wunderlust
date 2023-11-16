@@ -104,13 +104,13 @@ header nav li{
 }
 
 header nav ul {
-    display:flex;
     background-color: #EAEAEA;
     color: #222222;
     text-decoration: none;
     display: grid;
     grid-template-columns:repeat(4, 1fr);
     margin-left: 100px;
+    margin: 8px;
 }
 
 header nav .active{
