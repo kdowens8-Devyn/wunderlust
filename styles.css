@@ -95,7 +95,7 @@ header nav{
 
 header nav li{
     list-style: none;
-    display:grid;
+    display: flex;
 }
 header h1{
     grid-column-start: 1;
