@@ -103,6 +103,8 @@ header nav li{
     text-decoration: none;
     background-color: #EAEAEA;
     color: #222222;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 header nav ul {
@@ -112,8 +114,7 @@ header nav ul {
     margin-left: 100px;
     margin-top: 0px;
     margin-right: 8px;
-    padding-left: 10px;
-    padding-right: 10px;
+   
 
 }
 
