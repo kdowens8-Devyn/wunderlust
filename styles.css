@@ -110,6 +110,7 @@ header nav ul {
     text-decoration: none;
     display: grid;
     grid-template-columns:repeat(4, 1fr);
+    margin-left: 100px;
 }
 
 header nav .active{
