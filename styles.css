@@ -109,7 +109,7 @@ header nav li a{
     text-decoration: none;
 }
 
-a .active{
+li .active{
     background-color: #F6D64A;
 }
 
