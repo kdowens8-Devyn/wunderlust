@@ -31,3 +31,455 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* color variables */
+:root {
+    --yellow: #F6D64A;
+    --teal: #55BCD5;
+    --purple: #9B26B0;
+    --blue:#499BD2;
+    --dark-gray: #222222;
+    --light-gray: #EAEAEA;
+}
+
+/* screen reader skip to content */
+.sr-only {
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+    }
+
+/* GLOBAL Styles */
+/* fonts */
+h1, h2, h3 {
+    font-family: 'Molle', cursive;
+}
+
+h4, p, q, small, nav, button, form {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* nav Will nee to add this to desktop??- https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/*/
+/* (A) WRAPPER */
+#menu-toggle {
+    width: 100%;
+    background-color: var(--yellow);
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  /* (B) HORIZONTAL MENU ITEMS */
+  #menu { display: flex; }
+  #menu a {
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+  }
+  #menu a:hover { background: white; }
+  
+  /* (C) HIDE HAMBURGER */
+  #menu-toggle label, #toggle { display: none; }
+
+/* Header*/
+header {
+    background-image: linear-gradient(var(--teal),white);
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+header img {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    transform: scale(.6);
+}
+header nav{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+header h1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    font-size: 40px;
+    text-align: left;
+    padding-top: 10px;
+}
+header p {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 90%;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+h1, header p, #intro h2, #intro p, #plan h3,#testimonials h3,
+#about h3,#contact h3 {
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+/* INTRO */
+#intro {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#intro h2 {
+    font-size: 35px;
+}
+#intro p {
+    line-height: 1.9;
+    text-align: left;
+    
+}
+#img-grid {
+    display: grid;
+}
+#img-grid img {
+    width: 100%;
+    padding-top: 15px;
+}
+
+/* PLAN */
+#plan {
+    background-color: var(--yellow);
+    display:grid;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#plan h3 {
+    font-size: 35px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+#plan section {
+    background-color: var(--teal);
+    border:solid 4px #fff;
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+#plan h4 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+#plan a {
+    width: 50%;
+    margin: auto;
+    padding: 5px;
+}
+#plan img{
+    width: 100%;
+}
+
+/* testimonials */
+#testimonials {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#testimonials h3 {
+    font-size: 35px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+#testimonials section{
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    margin-top: 10px; 
+}
+#testimonials img {
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+}
+#testimonials h4, #testimonials p,#testimonials q {
+    text-align: center;
+}
+#testimonials h4 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 25px;
+}
+#testimonials p {
+    line-height: 1.5;
+    font-size: 16px;
+}
+#testimonials q {
+    font-style: italic;
+    quotes: "“" "”";
+}
+#testimonials q::before {
+    content: open-quote;
+}
+#testimonials q::after {
+    content: close-quote;
+}
+
+/* about (destination) */
+#about {
+    background-color: var(--blue);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#about h3 {
+    font-size: 35px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+#about p{
+    text-align: center;
+}
+#about h4 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+#about div {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#about section {
+    margin: auto;
+    width: 60%;
+    height: 60%;
+}
+#about img {
+    width: 100%;
+    height: 100%;
+}
+
+/* contact */
+#contact h3 {
+    font-size: 35px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+#contact h3 span {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+form{
+	display: block;
+	width: 90%;
+	padding: 1em;
+	margin: 0 auto;
+	color: black;
+	font-size: 20px;
+}
+
+input, label, fieldset{
+	display: block;
+	width: 95%;
+}
+
+.required{
+  display: inline-block;
+  color: var(--purple);
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+label{
+	text-transform: uppercase;
+    font-weight: 700;
+}
+
+input{
+    width: 90%;
+	font-size: 1em;
+	padding: 0.25em 0.5em;
+	border: 2px solid var(--purple);
+	height: 2em;
+}
+
+fieldset{
+	padding: 0.5em 0 1em 0.5em;
+	margin: 0.75em 0 0.25em 0;
+	width: 98%;
+	display: grid;
+	grid-template-columns: 1fr ;
+}
+
+input[type=submit]{
+	font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+	width: 90%;
+	height: auto;
+	color: #fff;
+	background-color: var(--purple);
+	border: none;
+}
+
+input:focus, textarea:focus{
+	border-color: blue;
+	box-shadow: 0 0 0 3px rgba(34, 34, 34, 0.3);
+	border-radius: 4px;
+}
+
+/* footer */
+footer{
+    background-color: var(--light-gray);
+    text-align: center;
+    
+}
+footer p{
+    padding: 10%;
+    padding-top: 10%;
+}
+footer a {
+    text-decoration: none;
+    color: black;
+    padding: 25%;
+}
+
+/* GLOBAL Styles END */
+
+/* Phone */
+@media screen and (max-width: 320px){
+    /* (A) BREAK INTO VERTICAL MENU */
+    #menu a {
+      box-sizing: border-box;
+      display: block;
+      width: 100%;
+      border-top: 1px solid #333;
+      background-color: var(--teal);
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+   
+    /* (B) SHOW HAMBURGER ICON */
+    #menu-toggle label { 
+      display: inline-block; 
+      color: black;
+      background: var(--yellow);
+      font-style: normal;
+      font-size: 1.2em;
+      padding: 10px;
+    }
+  
+    /* (C) TOGGLE SHOW/HIDE MENU */
+    #menu { display: none; }
+    #menu-toggle input:checked ~ #menu { display: block; }
+   
+
+  }
+  /* End Phone */
+
+  /* tablet */
+  @media screen and (max-width: 600px){
+    header {
+        grid-template-columns: 1fr 3fr;
+    }
+    header img {
+        transform: scale(.8);
+    }
+    header nav {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    header h1{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    header p {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    div #img-grid {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #img-grid picture {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    #plan div, #testimonials div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #about div{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+  /* End Tablet */
+  @media screen and (min-width: 601px){ 
+    header {
+        grid-template-columns: 1fr 1fr 2fr 1fr;
+    }
+    header h1 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    header nav {
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+    #intro {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #intro p {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    #intro #img-grid {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-template-columns: 1fr 1fr;
+    }
+    #img-grid picture {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    #plan div, #testimonials div{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    #about div{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
