@@ -108,6 +108,7 @@ header nav ul li a{
     background-color: #EAEAEA;
     color: #222222;
     text-decoration: none;
+    justify-content: space-between;
 }
 
 header nav .active{
