@@ -52,7 +52,7 @@ table {
 
 
 
-/* color variables */
+
 :root {
     --yellow: #F6D64A;
     --teal: #55BCD5;
@@ -62,7 +62,7 @@ table {
     --light-gray: #EAEAEA;
 }
 
-/* screen reader skip to content */
+
 .sr-only {
     position:absolute;
     left:-10000px;
@@ -72,8 +72,7 @@ table {
     overflow:hidden;
     }
 
-/* GLOBAL Styles */
-/* fonts */
+
 h1, h2, h3 {
     font-family: 'Molle', cursive;
 }
@@ -82,8 +81,7 @@ h4, p, q, small, nav, button, form {
     font-family: 'Montserrat', sans-serif;
 }
 
-/* nav Will nee to add this to desktop??- https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/*/
-/* (A) WRAPPER */
+
 #menu-toggle {
     width: 100%;
     background-color: var(--yellow);
@@ -91,7 +89,7 @@ h4, p, q, small, nav, button, form {
     font-weight: bold;
   }
   
-  /* (B) HORIZONTAL MENU ITEMS */
+  
   #menu { display: flex; }
   #menu a {
     flex-grow: 1;
@@ -103,10 +101,10 @@ h4, p, q, small, nav, button, form {
   }
   #menu a:hover { background: white; }
   
-  /* (C) HIDE HAMBURGER */
+ 
   #menu-toggle label, #toggle { display: none; }
 
-/* Header*/
+
 header {
     background-image: linear-gradient(var(--teal),white);
     display: grid;
@@ -148,7 +146,7 @@ h1, header p, #intro h2, #intro p, #plan h3,#testimonials h3,
     padding-right: 8%;
 }
 
-/* INTRO */
+
 #intro {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -169,7 +167,7 @@ h1, header p, #intro h2, #intro p, #plan h3,#testimonials h3,
     padding-top: 15px;
 }
 
-/* PLAN */
+
 #plan {
     background-color: var(--yellow);
     display:grid;
@@ -206,7 +204,7 @@ h1, header p, #intro h2, #intro p, #plan h3,#testimonials h3,
     width: 100%;
 }
 
-/* testimonials */
+
 #testimonials {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -251,7 +249,7 @@ h1, header p, #intro h2, #intro p, #plan h3,#testimonials h3,
     content: close-quote;
 }
 
-/* about (destination) */
+
 #about {
     background-color: var(--blue);
     padding-top: 40px;
@@ -286,7 +284,7 @@ h1, header p, #intro h2, #intro p, #plan h3,#testimonials h3,
     height: 100%;
 }
 
-/* contact */
+
 #contact h3 {
     font-size: 35px;
     padding-top: 10px;
@@ -354,7 +352,7 @@ input:focus, textarea:focus{
 	border-radius: 4px;
 }
 
-/* footer */
+
 footer{
     background-color: var(--light-gray);
     text-align: center;
@@ -370,11 +368,11 @@ footer a {
     padding: 25%;
 }
 
-/* GLOBAL Styles END */
 
-/* Phone */
+
+
 @media screen and (max-width: 320px){
-    /* (A) BREAK INTO VERTICAL MENU */
+   
     #menu a {
       box-sizing: border-box;
       display: block;
@@ -385,7 +383,7 @@ footer a {
       font-weight: bold;
     }
    
-    /* (B) SHOW HAMBURGER ICON */
+    
     #menu-toggle label { 
       display: inline-block; 
       color: black;
@@ -395,15 +393,13 @@ footer a {
       padding: 10px;
     }
   
-    /* (C) TOGGLE SHOW/HIDE MENU */
+    
     #menu { display: none; }
     #menu-toggle input:checked ~ #menu { display: block; }
    
 
   }
-  /* End Phone */
-
-  /* tablet */
+  
   @media screen and (max-width: 600px){
     header {
         grid-template-columns: 1fr 3fr;
@@ -445,7 +441,7 @@ footer a {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
   }
-  /* End Tablet */
+  
   @media screen and (min-width: 601px){ 
     header {
         grid-template-columns: 1fr 1fr 2fr 1fr;
