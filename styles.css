@@ -175,7 +175,7 @@ header p {
     font-size: 30px;
   }
 
-  div #intro{
+  div #intro h2,div #intro h2 {
     margin: 0 auto;
     width: 70%;
     margin-top: 200px;
