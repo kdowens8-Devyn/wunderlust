@@ -174,16 +174,13 @@ header p {
   #intro p{
     margin: 0 auto;
     width: 70%;
-    margin-top: 200px;
+    
   }
 
   #intro h2{
     font-size: 30px;
     margin: 0 auto;
-  }
-
-  #intro {
-  
+    margin-top: 200px;
   }
 
 /* Phone */
