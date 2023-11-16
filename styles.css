@@ -92,6 +92,10 @@ header nav{
     grid-row-start: 1;
     grid-row-end: 2;
 }
+
+header nav li{
+    list-style: none;
+}
 header h1{
     grid-column-start: 1;
     grid-column-end: 3;
@@ -110,6 +114,14 @@ header p {
     font-size: 20px;
     line-height: 1.5;
 }
+
+
+
+
+
+
+
+
 
 /* Phone */
 @media screen and (max-width: 320px){
