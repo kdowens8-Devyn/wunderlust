@@ -261,6 +261,7 @@ header p {
 #testimonials q {
     font-style: italic;
     font-size: 22px;
+    text-align: center;
 }
 #testimonials q::before {
     content: open-quote;
