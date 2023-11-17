@@ -360,8 +360,8 @@ fieldset{
 input[type=submit]{
 	font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
-	width: 90%;
-	height: auto;
+	width: 20%;
+	height: 3em;
 	color: #fff;
 	background-color: var(--purple);
 	border: none;
