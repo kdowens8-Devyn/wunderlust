@@ -321,6 +321,10 @@ header p {
     display: flex;
 }
 
+#names, #nums,.custom-select{
+    display: flex;
+}
+
 form{
 	
 	width: 90%;
