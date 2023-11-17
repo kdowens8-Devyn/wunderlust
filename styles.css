@@ -370,7 +370,7 @@ fieldset{
 input[type=submit]{
 	font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
-	width: 60%;
+	width: 30%;
 	height: 3em;
 	color: #EAEAEA;
 	background-color: var(--purple);
