@@ -187,8 +187,7 @@ header p {
   #plan {
     background-color: var(--yellow);
     display:grid;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    
 }
   #plan h3 {
     font-size: 35px;
