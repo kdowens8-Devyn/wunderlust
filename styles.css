@@ -329,7 +329,7 @@ form{
 
 input, label, fieldset{
 	display: block;
-    display: flex;
+    flex-direction: row;
 	width: 95%;
 }
 
