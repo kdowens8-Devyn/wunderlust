@@ -272,8 +272,8 @@ header p {
 
 #about {
     background-color: var(--blue);
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 #about h3 {
     font-size: 35px;
@@ -296,7 +296,7 @@ header p {
     grid-template-columns: 1fr 1fr;
 }
 #about section {
-    margin: 0 auto;
+    margin: auto;
     width: 45%;
     height: 45%;
 }
