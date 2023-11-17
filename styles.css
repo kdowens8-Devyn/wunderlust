@@ -260,7 +260,7 @@ header p {
 }
 #testimonials q {
     font-style: italic;
-    quotes: "“" "”";
+    font-size: 20px;
 }
 #testimonials q::before {
     content: open-quote;
