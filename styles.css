@@ -309,10 +309,11 @@ header p {
     font-size: 35px;
     padding-top: 10px;
     padding-bottom: 5px;
+    margin-left: 50px;
 }
 #contact h3 span {
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 22px;
 }
 form{
 	display: block;
@@ -341,7 +342,7 @@ label{
 }
 
 input{
-    width: 90%;
+    width: 50%;
 	font-size: 1em;
 	padding: 0.25em 0.5em;
 	border: 2px solid var(--purple);
