@@ -392,6 +392,7 @@ footer{
 
 footer p{
     padding-top: 10%;
+    padding-left: 5%;
     order: 1;
 }
 
@@ -400,6 +401,7 @@ footer a {
     color: black;
     order: 2;
     float: right;
+    padding-right: 10%;
 }
 
 
