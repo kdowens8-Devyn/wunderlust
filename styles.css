@@ -76,7 +76,7 @@ h4, p, q, small, nav, button, form {
   }
 
 header{
-    background-image: linear-gradient(var(--teal),white);
+    background-image: linear-gradient(#55BCD5,white);
     display: grid;
     grid-template-columns: 1fr 1fr ;
 }
@@ -157,11 +157,11 @@ header p {
     flex-grow: 1;
     flex-basis: 0;
     padding: 10px;
-    color: black;
+    color: #222222;
     text-decoration: none;
     text-align: center;
   }
-  #menu a:hover { background: white; }
+  #menu a:hover { background: #EAEAEA; }
   
   
   #menu-toggle label, #toggle { display: none; }
@@ -189,7 +189,7 @@ header p {
   }
 
   #plan {
-    background-color: var(--yellow);
+    background-color: #F6D64A;
     display:grid;
     padding-top: 80px;
     padding-bottom: 80px;
@@ -201,8 +201,8 @@ header p {
     margin-left: 50px;
 }
   #plan section {
-    background-color: var(--teal);
-    border:solid 4px #fff;
+    background-color: #55BCD5;
+    border:solid 4px #EAEAEA;
     margin: 0 auto;
     width: 80%;
     margin-top: 10px;
@@ -271,7 +271,7 @@ header p {
 }
 
 #about {
-    background-color: var(--blue);
+    background-color: #499BD2;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -321,7 +321,7 @@ form{
 	width: 90%;
 	padding: 1em;
 	margin: 0 auto;
-	color: black;
+	color: #222222;
 	font-size: 20px;
 }
 
@@ -332,7 +332,7 @@ input, label, fieldset{
 
 .required{
   display: inline-block;
-  color: var(--purple);
+  color: #9B26B0;
   font-size: 1.1em;
   font-weight: bold;
 }
@@ -364,7 +364,7 @@ input[type=submit]{
     text-transform: uppercase;
 	width: 10%;
 	height: 3em;
-	color: #fff;
+	color: #EAEAEA;
 	background-color: var(--purple);
 	border: none;
     
@@ -381,7 +381,7 @@ select{
 
 input:focus, textarea:focus{
 	border-color: #9B26B0;
-	box-shadow: 0 0 0 3px rgba(34, 34, 34, 0.3);
+	box-shadow: #222222;
 	border-radius: 4px;
 }
 
@@ -398,7 +398,7 @@ footer p{
 
 footer a {
     text-decoration: none;
-    color: black;
+    color: #222222;
     order: 2;
     float: right;
     padding-right: 10%;
@@ -413,7 +413,7 @@ footer a {
       box-sizing: border-box;
       display: block;
       width: 100%;
-      border-top: 1px solid #333;
+      border-top: 1px solid #222222;
       background-color: var(--teal);
       text-transform: uppercase;
       font-weight: bold;
@@ -422,7 +422,7 @@ footer a {
     /* (B) SHOW HAMBURGER ICON */
     #menu-toggle label { 
       display: inline-block; 
-      color: black;
+      color: #222222;
       background: var(--yellow);
       font-style: normal;
       font-size: 1.2em;
