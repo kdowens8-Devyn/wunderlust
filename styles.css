@@ -316,8 +316,6 @@ header p {
     font-size: 22px;
 }
 
-
-
 form{
 	
 	width: 90%;
@@ -380,6 +378,10 @@ select{
 	padding: 0.25em 0.5em;
 	border: 2px solid var(--purple);
     
+}
+
+#names, #nums, #selects{
+    flex-direction: row;
 }
 
 input:focus, textarea:focus{
