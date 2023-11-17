@@ -115,7 +115,7 @@ header nav ul {
     margin-left: 100px;
     margin-top: 0px;
     margin-right: 8px;
-   
+   font-weight: bold;
 
 }
 
@@ -314,6 +314,10 @@ header p {
 #contact h3 span {
     font-family: 'Montserrat', sans-serif;
     font-size: 22px;
+}
+
+#contact{
+
 }
 
 form{
