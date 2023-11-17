@@ -373,8 +373,8 @@ input[type=submit]{
 }
 
 select{
-    width: 25%;
-    height: 3em;
+    width: 30%;
+    height: 4em;
     font-size: 1em;
 	padding: 0.25em 0.5em;
 	border: 2px solid var(--purple);
