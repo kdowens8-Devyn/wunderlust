@@ -168,7 +168,7 @@ header p {
 
   #intro p, #intro h2{
     margin: 10px;
-    font-size: 20px;
+    font-size: 22px;
   }
 
   #intro p{
@@ -252,7 +252,7 @@ header p {
 #testimonials h4 {
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 35px;
 }
 #testimonials p {
     line-height: 1.5;
