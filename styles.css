@@ -354,7 +354,6 @@ input{
 
 fieldset{
 	padding: 0.5em 0 1em 0.5em;
-	margin: auto;
 	width: 30%;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
