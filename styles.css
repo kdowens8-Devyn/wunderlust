@@ -317,7 +317,7 @@ header p {
 }
 
 #contact{
-    flex-direction: row;
+    flex-direction: column;
 }
 
 form{
