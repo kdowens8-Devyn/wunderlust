@@ -326,8 +326,6 @@ form{
 }
 
 input, label, fieldset{
-	display: block;
-
 	width: 95%;
 }
 
