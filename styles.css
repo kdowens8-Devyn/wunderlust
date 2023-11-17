@@ -190,12 +190,12 @@ header p {
     padding-top: 40px;
     padding-bottom: 40px;
 }
-#plan h3 {
+  #plan h3 {
     font-size: 35px;
     padding-top: 10px;
     padding-bottom: 5px;
 }
-#plan section {
+  #plan section {
     background-color: var(--teal);
     border:solid 4px #fff;
     margin: auto;
@@ -206,19 +206,17 @@ header p {
     display: flex;
     flex-direction: column;
 }
-#plan h4 {
+  #plan h4 {
     text-align: center;
     font-size: 25px;
     font-weight: 600;
 }
-#plan a {
+  #plan a {
     width: 50%;
     margin: auto;
     padding: 5px;
 }
-#plan img{
-    width: 100%;
-}
+ 
 
 /* Phone */
 @media screen and (max-width: 320px){
