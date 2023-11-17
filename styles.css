@@ -367,8 +367,9 @@ fieldset{
 	grid-template-columns: 1fr 1fr 1fr;
 }
 
-label[for="prefEmail"] .radio-label {
-    color: purple;
+input[type="radio"][required]:checked + .radio-input .radio-control {
+    background-color: purple;
+    border-color: purple;
 }
 
 input[type=submit]{
