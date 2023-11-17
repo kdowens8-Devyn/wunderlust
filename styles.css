@@ -317,7 +317,7 @@ header p {
 }
 
 #contact{
-    
+    flex-direction: row;
 }
 
 form{
@@ -362,17 +362,7 @@ fieldset{
 	grid-template-columns: 1fr 1fr 1fr;
 }
 
-#names{
-    order: 1;
-}
 
-#nums{
-    order: 2;
-}
-
-#selects{
-    order: 3;
-}
 
 input[type=submit]{
 	font-family: 'Montserrat', sans-serif;
