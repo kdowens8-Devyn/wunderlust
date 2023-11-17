@@ -368,7 +368,7 @@ input[type=submit]{
 }
 
 input:focus, textarea:focus{
-	border-color: blue;
+	border-color: #9B26B0;
 	box-shadow: 0 0 0 3px rgba(34, 34, 34, 0.3);
 	border-radius: 4px;
 }
