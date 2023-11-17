@@ -319,6 +319,7 @@ header p {
 
 #contact{
     display: flex;
+    width: 100%;
 }
 
 #names, #nums,#selects{
