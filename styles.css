@@ -184,6 +184,10 @@ header p {
     width: 70%;
   }
 
+  #intro{
+    margin-bottom: 100px;
+  }
+
   #plan {
     background-color: var(--yellow);
     display:grid;
