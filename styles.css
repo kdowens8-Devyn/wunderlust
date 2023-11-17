@@ -385,6 +385,20 @@ input:focus, textarea:focus{
 	border-radius: 4px;
 }
 
+footer{
+    background-color: var(--light-gray);
+    text-align: center;
+    
+}
+footer p{
+    padding: 10%;
+    padding-top: 10%;
+}
+footer a {
+    text-decoration: none;
+    color: black;
+    padding: 25%;
+}
 
 
 
