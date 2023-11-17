@@ -327,6 +327,7 @@ form{
 
 input, label, fieldset{
 	width: 95%;
+    display: block;
 }
 
 .required{
