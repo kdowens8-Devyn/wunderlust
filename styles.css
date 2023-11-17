@@ -322,7 +322,7 @@ header p {
 }
 
 #names, #nums,.custom-select{
-    display: flex;
+    display: block;
 }
 
 form{
