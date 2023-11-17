@@ -296,7 +296,7 @@ header p {
     grid-template-columns: 1fr 1fr;
 }
 #about section {
-    margin: auto;
+
     width: 45%;
     height: 45%;
 }
@@ -393,10 +393,6 @@ select{
     margin-bottom: 5%;
 }
 
-#select input{
-    display: flex;
-    justify-content: end;
-}
 
 input:focus, textarea:focus{
 	border-color: #9B26B0;
