@@ -321,7 +321,7 @@ header p {
     display: flex;
 }
 
-#names, #nums,.custom-select{
+#names, #nums,#selects{
     display: block;
 }
 
