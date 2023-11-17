@@ -317,19 +317,14 @@ header p {
     font-size: 22px;
 }
 
-#contact{
-    display: flex;
-    width: 100%;
-    margin: 0 auto;
-}
 
 #names, #nums,#selects{
     display: block;
 }
 
 form{
-	
-	width: 90%;
+    display: flex;
+	width: 100%;
 	padding: 1em;
 	margin: 0 auto;
 	color: #222222;
