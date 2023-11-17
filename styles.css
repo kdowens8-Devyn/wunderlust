@@ -291,12 +291,12 @@ header p {
     text-transform: uppercase;
 }
 #about div {
-    margin: 0 auto;
+ 
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 #about section {
-
+    margin: 0 auto;
     width: 45%;
     height: 45%;
 }
