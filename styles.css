@@ -393,12 +393,14 @@ footer{
 
 footer p{
     padding-top: 10%;
+    order: 1;
 }
 
 footer a {
     text-decoration: none;
     color: black;
     padding: 25%;
+    order: 2;
 }
 
 
