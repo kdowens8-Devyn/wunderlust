@@ -365,6 +365,7 @@ input[type=submit]{
 	color: #fff;
 	background-color: var(--purple);
 	border: none;
+    justify-content: end;
 }
 
 input:focus, textarea:focus{
