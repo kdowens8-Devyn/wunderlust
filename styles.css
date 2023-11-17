@@ -379,10 +379,6 @@ select{
     
 }
 
-#names, #nums,#selects{
-   flex-wrap: wrap;
-}
-
 input:focus, textarea:focus{
 	border-color: #9B26B0;
 	box-shadow: 0 0 0 3px rgba(34, 34, 34, 0.3);
