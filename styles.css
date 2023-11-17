@@ -317,12 +317,10 @@ header p {
     font-size: 22px;
 }
 
-#contact{
-    width: 100%;
-}
 
 #names, #nums,#selects{
     display: block;
+    width: 100%;
 }
 
 form{
@@ -332,6 +330,7 @@ form{
 	margin: 0 auto;
 	color: #222222;
 	font-size: 20px;
+    justify-content: space-between;
 }
 
 input, label, fieldset{
