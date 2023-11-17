@@ -331,6 +331,8 @@ form{
 	color: #222222;
 	font-size: 20px;
     justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 input, label, fieldset{
