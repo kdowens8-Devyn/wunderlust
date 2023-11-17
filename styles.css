@@ -379,7 +379,7 @@ select{
 }
 
 #names, #nums,#selects{
-   justify-content: center;
+   flex-wrap: wrap;
 }
 
 input:focus, textarea:focus{
