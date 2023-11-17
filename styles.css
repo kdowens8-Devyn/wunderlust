@@ -315,6 +315,11 @@ header p {
     font-family: 'Montserrat', sans-serif;
     font-size: 22px;
 }
+
+#contact{
+    flex-wrap: wrap;
+}
+
 form{
 	display: block;
 	width: 90%;
