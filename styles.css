@@ -372,9 +372,12 @@ input[type=submit]{
     
 }
 
-input[for=destination]{
+select{
     width: 25%;
     height: 3em;
+    font-size: 1em;
+	padding: 0.25em 0.5em;
+	border: 2px solid var(--purple);
 }
 
 input:focus, textarea:focus{
