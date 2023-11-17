@@ -219,6 +219,50 @@ header p {
     width: 100%;
 }
 
+#testimonials {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#testimonials h3 {
+    font-size: 35px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+#testimonials section{
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    margin-top: 10px; 
+}
+#testimonials img {
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+}
+#testimonials h4, #testimonials p,#testimonials q {
+    text-align: center;
+}
+#testimonials h4 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 25px;
+}
+#testimonials p {
+    line-height: 1.5;
+    font-size: 16px;
+}
+#testimonials q {
+    font-style: italic;
+    quotes: "“" "”";
+}
+#testimonials q::before {
+    content: open-quote;
+}
+#testimonials q::after {
+    content: close-quote;
+}
+
 /* Phone */
 @media screen and (max-width: 320px){
     /* (A) BREAK INTO VERTICAL MENU */
