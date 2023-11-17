@@ -328,7 +328,7 @@ form{
 }
 
 input, label, fieldset{
-	
+	flex-direction: row;
 	width: 95%;
 }
 
