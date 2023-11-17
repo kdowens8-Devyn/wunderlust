@@ -291,7 +291,7 @@ header p {
     text-transform: uppercase;
 }
 #about div {
-    margin: auto;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
