@@ -368,7 +368,7 @@ fieldset{
 }
 
 input #prefEmail{
-    color: #9B26B0;
+    background-color: #9B26B0;
 }
 
 input[type=submit]{
