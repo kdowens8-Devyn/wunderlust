@@ -399,7 +399,7 @@ footer a {
     text-decoration: none;
     color: black;
     order: 2;
-    flex-wrap: wrap;
+    float: right;
 }
 
 
