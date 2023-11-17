@@ -321,8 +321,6 @@ header p {
 #names, #nums,#selects{
     display: block;
     width: 100%;
-    margin-left: 5%;
-    margin-right: 5%;
 }
 
 form{
