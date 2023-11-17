@@ -378,7 +378,7 @@ select{
     
 }
 
-#names, #nums, #selects{
+#names, #nums, .custom-selects{
     flex-direction: row;
 }
 
