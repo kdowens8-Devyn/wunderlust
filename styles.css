@@ -328,7 +328,7 @@ form{
 }
 
 input, label, fieldset{
-	display: block;
+	display: flex;
 	width: 95%;
 }
 
@@ -378,7 +378,7 @@ select{
     font-size: 1em;
 	padding: 0.25em 0.5em;
 	border: 2px solid var(--purple);
-    order: 3;
+    
 }
 
 input:focus, textarea:focus{
