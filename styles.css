@@ -351,7 +351,7 @@ label{
 }
 
 input{
-    width: 25%;
+    width: 80%;
 	font-size: 1em;
 	padding: 0.25em 0.5em;
 	border: 2px solid var(--purple);
@@ -360,7 +360,7 @@ input{
 
 fieldset{
 	padding: 0.5em 0 1em 0.5em;
-	width: 30%;
+	width: 80%;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 }
@@ -370,7 +370,7 @@ fieldset{
 input[type=submit]{
 	font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
-	width: 10%;
+	width: 60%;
 	height: 3em;
 	color: #EAEAEA;
 	background-color: var(--purple);
@@ -379,7 +379,7 @@ input[type=submit]{
 }
 
 select{
-    width: 26%;
+    width: 80%;
     height: 3.5em;
     font-size: 1em;
 	padding: 0.25em 0.5em;
