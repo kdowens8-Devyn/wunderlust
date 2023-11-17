@@ -380,6 +380,7 @@ input[type=submit]{
     margin: 0 auto;
     display: flex;
     justify-content: center;
+    justify-self: end;
 }
 
 select{
