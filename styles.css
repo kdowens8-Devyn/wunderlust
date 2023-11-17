@@ -198,6 +198,7 @@ header p {
     font-size: 35px;
     padding-top: 10px;
     padding-bottom: 5px;
+    margin-left: 100px;
 }
   #plan section {
     background-color: var(--teal);
