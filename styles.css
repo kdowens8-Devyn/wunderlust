@@ -367,7 +367,9 @@ fieldset{
 	grid-template-columns: 1fr 1fr 1fr;
 }
 
-
+input #prefEmail{
+    color: #9B26B0;
+}
 
 input[type=submit]{
 	font-family: 'Montserrat', sans-serif;
